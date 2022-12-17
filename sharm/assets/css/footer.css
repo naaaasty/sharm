@@ -1,0 +1,129 @@
+.footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+}
+
+.footer__top {
+    width: 100%;
+    padding: 65px 0 53px;
+    border-bottom: 1px solid #E6EAEE;
+}
+
+.footer__wrap {
+    margin: 0 auto;
+    padding: 0 25px;
+    width: 1192px;
+}
+
+.footer__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__block-info {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.footer__block-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    color: var(--color-black);
+}
+
+.footer__menu {
+    display: flex;
+    gap: 53px;
+}
+
+.footer__menu-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__menu-item {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-black);
+}
+
+.footer__block-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer__block-email,
+.footer__block-phone {
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--color-black);
+}
+
+.footer__block-social {
+    display: flex;
+    gap: 29px;
+}
+
+.social__item i {
+    font-size: 18px;
+    color: #787878;
+}
+
+.social__item i:hover {
+    color: var(--color-black);
+}
+
+.footer__bottom {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.footer__container-left {
+    display: flex;
+    align-items: center;
+    gap: 46px;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo img {
+    width: 46px;
+    height: 47px;
+}
+
+.footer__logo span {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 28px;
+    color: var(--color-black);
+    margin-left: 12px;
+}
+
+.copi {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8D8D8D;
+}
+
+.footer__container-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
